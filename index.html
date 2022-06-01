@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <span id="watch">
+        00 : 00 : 00 : 0
+    </span>
+    <span id="span2" style="font-size: 57px;">00</span>
+    <div id="button_div"> 
+        <button id="button_start_stop" class="buttons" onclick="start_func()">
+            <p id="start">Start</p>
+            <p id="stop">Stop</p>
+        </button>
+        <button id="button_split" class="buttons" onclick="split()" disabled>Split</button>
+        <button id="button_reset" class="buttons" onclick="reset()" disabled>Reset</button>
+    </div>
+</div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
